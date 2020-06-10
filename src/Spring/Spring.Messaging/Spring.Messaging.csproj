@@ -14,9 +14,4 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
     <PackageReference Include="Experimental.System.Messaging" Version="1.0.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\GenCommonAssemblyInfo.cs">
-      <Link>GenCommonAssemblyInfo.cs</Link>
-    </Compile>
-  </ItemGroup>
 </Project>

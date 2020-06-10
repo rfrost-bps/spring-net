@@ -10,9 +10,4 @@
   <ItemGroup>
     <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\GenCommonAssemblyInfo.cs">
-      <Link>GenCommonAssemblyInfo.cs</Link>
-    </Compile>
-  </ItemGroup>
 </Project>
