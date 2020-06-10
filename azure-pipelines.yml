@@ -29,3 +29,12 @@ steps:
     configuration: '$(buildConfiguration)'
 
 
+- task: NuGetCommand@2
+  inputs:
+    command: 'pack'
+    packagesToPack: 'src/Spring/*.csproj'
+    versioningScheme: 'byPrereleaseNumber'
+    majorVersion: '1'
+    minorVersion: '0'
+    patchVersion: '0'
+    includeSymbols: true
