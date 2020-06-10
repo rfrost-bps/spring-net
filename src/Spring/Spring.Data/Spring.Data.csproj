@@ -3,6 +3,7 @@
     <TargetFrameworks>netstandard2.0;$(TargetFullFrameworkVersion)</TargetFrameworks>
     <Description>Interfaces and classes that provide Data access support in Spring.Net</Description>
     <NoWarn>1591</NoWarn>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spring.Aop\Spring.Aop.csproj" />

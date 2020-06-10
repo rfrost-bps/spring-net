@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
     <Description>Interfaces and classes that provide web application support in Spring.Net</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spring.Core\Spring.Core.csproj" />
