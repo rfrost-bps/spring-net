@@ -5,6 +5,7 @@
     <RootNamespace>Spring.Data.NHibernate</RootNamespace>
     <NoWarn>0618</NoWarn>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>3.0.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spring.Aop\Spring.Aop.csproj" />

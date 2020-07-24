@@ -24,3 +24,5 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: AssemblyTitle("Spring.Core")]
 [assembly: AssemblyDescription("Core functionality for Spring.Net IoC container")]
+[assembly: AssemblyVersion("3.0.0.0")]
+[assembly: AssemblyFileVersion("3.0.0.0")]

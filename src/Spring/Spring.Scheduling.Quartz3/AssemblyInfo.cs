@@ -20,3 +20,5 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: AssemblyTitle("Spring.Scheduling.Quartz")]
 [assembly: AssemblyDescription("Quartz.NET scheduler integration for Spring.NET")]
+[assembly: AssemblyVersion("3.0.0.0")]
+[assembly: AssemblyFileVersion("3.0.0.0")]
